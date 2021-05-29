@@ -13,7 +13,7 @@ const Details = () => {
       setQuantity(quantity - 1);
     }
   };
-  console.log(product);
+  // console.log(product);
   useEffect(() => {
     dispatch({ type: "PRODUCT", id });
   }, [id]);
