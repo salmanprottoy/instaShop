@@ -46,6 +46,5 @@ const Home = () => {
     </div>
   );
 };
-//salman-branch
 
 export default Home;
