@@ -4,14 +4,19 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const Nav = () => {
-  const {totalQuantities}=useSelector(state=>state.CartReducer)
+  const { totalQuantities } = useSelector((state) => state.CartReducer);
   return (
     <div className="nav">
       <div className="container">
         <div className="nav__container">
           <div className="nav__left">
             <Link to="/">
-              <img src="/images/e-commerce_icon.png" alt="logo" />
+              <h1>
+                Instashop
+                <span style={{ color: "lightsalmon", fontWeight: "bolder" }}>
+                  .
+                </span>
+              </h1>
             </Link>
           </div>
           <div className="nav__right">

@@ -133,7 +133,7 @@ a {
 }
 .details__image img {
   width: 100%;
-  height: auto;
+  height: 600px;
   margin-bottom: 25px;
 }
 .details__name {
