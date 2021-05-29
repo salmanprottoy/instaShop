@@ -66,5 +66,6 @@ const Details = () => {
     </div>
   );
 };
+//add comment for test
 
 export default Details;
