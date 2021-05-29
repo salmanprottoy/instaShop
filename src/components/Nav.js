@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillBagFill } from "react-icons/bs";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
