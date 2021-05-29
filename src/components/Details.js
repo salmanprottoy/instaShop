@@ -46,6 +46,7 @@ const Details = () => {
               </span>
               <button
                 className="btn-default"
+                title="AddToCart"
                 onClick={() =>
                   dispatch({
                     type: "ADD_TO_CART",
