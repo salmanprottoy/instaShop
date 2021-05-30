@@ -295,3 +295,76 @@ a {
     padding-right: 0;
   }
 }
+
+.login-box {
+  width: 320px;
+  height: 340px;
+  background: rgba(0, 0, 0, 0.5);
+  color: silver;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 30px 30px;
+  margin-top: 30px;
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.login-box p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bg {
+  height: "100%";
+  background-color: gray;
+}
+
+.google-button {
+  height: 40px;
+  width: 100%;
+  border-width: 0;
+  background: white;
+  color: #737373;
+  border-radius: 5px;
+  white-space: nowrap;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.05);
+  transition-property: background-color, box-shadow;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  padding: 0;
+  cursor: pointer;
+}
+
+.google-button__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 8px 0 8px 8px;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+
+.google-button__icon--plus {
+  width: 27px;
+}
+
+.google-button__text {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", arial, sans-serif;
+}
