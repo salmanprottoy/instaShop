@@ -2,7 +2,7 @@ const initState = {
   products: [
     {
       id: 1,
-      name: "man t-shirt summer season",
+      name: "Gray Knitted Textile",
       image: "1.jpg",
       price: 20,
       discount: 2,
@@ -12,7 +12,7 @@ const initState = {
     },
     {
       id: 2,
-      name: "woman jacket for summer",
+      name: "Blue And White Sleeveless Top",
       image: "2.jpg",
       price: 30,
       discount: 5,
@@ -22,7 +22,7 @@ const initState = {
     },
     {
       id: 3,
-      name: "man trouser for all seasons",
+      name: "Brown Leather Gloves",
       image: "3.jpg",
       price: 15,
       discount: 3,
@@ -32,7 +32,7 @@ const initState = {
     },
     {
       id: 4,
-      name: "shoes for all season",
+      name: "Black-and-white Adidas Sneakers",
       image: "4.jpg",
       price: 50,
       discount: 4,
@@ -42,7 +42,7 @@ const initState = {
     },
     {
       id: 5,
-      name: "female soot for summer",
+      name: "Luxury silk garment",
       image: "5.jpg",
       price: 25,
       discount: 2,
@@ -52,7 +52,7 @@ const initState = {
     },
     {
       id: 6,
-      name: "male jeans",
+      name: "Blue Denim Pants",
       image: "6.jpg",
       price: 60,
       discount: 6,
@@ -62,7 +62,7 @@ const initState = {
     },
     {
       id: 7,
-      name: "male trouser for all seasons",
+      name: "Woolen sweater",
       image: "7.jpg",
       price: 35,
       discount: 2,
@@ -72,7 +72,7 @@ const initState = {
     },
     {
       id: 8,
-      name: "male jacket for winter",
+      name: "Fashionable trousers",
       image: "8.jpg",
       price: 80,
       discount: 7,
@@ -82,7 +82,7 @@ const initState = {
     },
     {
       id: 9,
-      name: "male jacket for all season",
+      name: "Old fashioned handbag with metal handle",
       image: "9.jpg",
       price: 95,
       discount: 4,
@@ -92,8 +92,28 @@ const initState = {
     },
     {
       id: 10,
-      name: "male winter jacket",
+      name: "Black skirt with white elements",
       image: "10.jpg",
+      price: 120,
+      discount: 3,
+      discountPrice: 120 - (3 / 100) * 120,
+      quantity: 1,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?",
+    },
+    {
+      id: 11,
+      name: "male winter jacket",
+      image: "11.jpg",
+      price: 120,
+      discount: 3,
+      discountPrice: 120 - (3 / 100) * 120,
+      quantity: 1,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?",
+    },
+    {
+      id: 12,
+      name: "Women's White Dress",
+      image: "12.jpg",
       price: 120,
       discount: 3,
       discountPrice: 120 - (3 / 100) * 120,
