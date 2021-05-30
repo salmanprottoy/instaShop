@@ -4,7 +4,9 @@ A React application build using react library that can be use as online shopping
 
 ---
 
-![https://i.ibb.co/b7xCcyq/Instashop-banner.jpg]()
+## Preview
+
+![Preview](https://i.ibb.co/b7xCcyq/Instashop-banner.jpg)
 
 ---
 
