@@ -110,7 +110,14 @@ const Cart = () => {
                       </div>
                     </div>
 
-                    <button type="button" title="checkout" className="checkout">
+                    <button
+                      onClick={() => {
+                        alert("Your order is ready for checkout.");
+                      }}
+                      type="button"
+                      title="checkout"
+                      className="checkout"
+                    >
                       CheckOut
                     </button>
                   </div>
