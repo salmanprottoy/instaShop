@@ -1,4 +1,4 @@
-# Instashop
+# Instashop ⚡
 
 A React application build using react library that can be use as online shopping.
 
